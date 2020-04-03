@@ -1,9 +1,6 @@
-import _Vue, { WatchOptions } from "vue";
+import _Vue, { WatchOptions } from 'vue'
 
-// augment typings of Vue.js
-import "./vue";
-
-import { mapState, mapMutations, mapGetters, mapActions, createNamespacedHelpers } from "./helpers";
+import { createNamespacedHelpers, mapActions, mapGetters, mapMutations, mapState } from './helpers'
 
 export * from "./helpers";
 
